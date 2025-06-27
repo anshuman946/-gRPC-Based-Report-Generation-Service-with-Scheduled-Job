@@ -12,4 +12,4 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 1. Install Go modules: `go mod tidy`
 2. Compile the proto: `protoc --go_out=. --go-grpc_out=. proto/*.proto`
 3. Run the server: `go run server/*.go`
-4. Test using `grpcurl`: 
+4. Test using `grpcurl`:
